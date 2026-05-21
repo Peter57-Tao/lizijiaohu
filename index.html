@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>粒子 · 幻境 v0.1</title>
+    <script type="module" crossorigin src="./assets/index-ANRye562.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DcABWC_n.css">
+  </head>
+  <body>
+    <div id="app">
+      <main class="experience" aria-label="粒子幻境手势交互演示">
+        <div id="scene" class="scene" aria-hidden="true"></div>
+        <div class="grid-layer" aria-hidden="true"></div>
+        <header class="hud">
+          <h1>粒子 · 幻境 v0.1</h1>
+          <p id="status">INITIALIZING</p>
+        </header>
+
+        <aside class="camera-panel" aria-label="摄像头预览">
+          <video id="camera-preview" autoplay muted playsinline></video>
+          <div id="camera-message">REQUESTING CAMERA</div>
+        </aside>
+
+        <nav class="control-bar" aria-label="粒子状态控制">
+          <button class="mode-button is-active" type="button" data-mode="base">基础模式</button>
+          <button class="mode-button" type="button" data-mode="attract">吸附</button>
+          <button class="mode-button" type="button" data-mode="expand">扩散</button>
+          <button class="mode-button" type="button" data-mode="nebula">星云</button>
+          <button class="mode-button" type="button" data-mode="reset">重置</button>
+        </nav>
+      </main>
+    </div>
+  </body>
+</html>
